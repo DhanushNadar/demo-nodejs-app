@@ -46,4 +46,4 @@ jobs:
           from_branch: test
           target_branch: main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
